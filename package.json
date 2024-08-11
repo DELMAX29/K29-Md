@@ -1,5 +1,5 @@
 {
-  "name": "SUPERBOT",
+  "name": "k29",
   "version": "1.0.0",
   "description": "If you like it, give a star",
   "main": "index.js",
@@ -18,16 +18,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/jayden-official/SUPER-BOT",
+  "homepage": "https://github.com/DELMAX29/K29-MD",
   "author": {
-    "name": "JaydenOffical"
+    "name": "k29"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jayden-official"
+    "url": "https://github.com/delmax29"
   },
   "bugs": {
-    "url": "https://github.com/jayden-official"
+    "url": "https://github.com/delmax29"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
