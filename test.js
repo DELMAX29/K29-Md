@@ -15,7 +15,7 @@ for (const folder of folders) {
     files.push(path.resolve(path.join(folder, file)));
   }
 }
-for (const file of files) {
+for (const file of files) { 
   if (file == __filename) continue;
   console.error('Checking', file);
   const error = syntaxError(fs.readFileSync(file, 'utf8'), file, {
