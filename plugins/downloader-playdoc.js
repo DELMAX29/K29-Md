@@ -13,7 +13,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     } else if (command === 'play4' || command == 'playdoc2') {
       additionalText = 'video 🎥';
     }
-    const texto1 = `*◉—⌈🎶𝗦𝗨𝗣𝗘𝗥 𝗠𝗨𝗦𝗜𝗖🎶⌋—◉*\n
+    const texto1 = `*◉—⌈🎶K29 MUSIC🎶⌋—◉*\n
 ❏ 📌 *𝗧𝗶𝘁𝗹𝗲:* ${yt_play[0].title}
 ❏ 📆 *𝗽𝘂𝗯𝗹𝗶𝘀𝗵𝗲𝗱:* ${yt_play[0].ago}
 ❏ ⌚ *Dur𝗮𝘁𝗶𝗼𝗻:* ${secondString(yt_play[0].duration.seconds)}
@@ -48,7 +48,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
             const ress = await ytdl.chooseFormat(infoo.formats, {filter: 'audioonly'});
             conn.sendMessage(m.chat, {document: {url: ress.url}, fileName: __res[0].title + '.mp3', mimetype: 'audio/mp4'}, {quoted: m});
           } catch {
-            await conn.reply(m.chat, 'https://github.com/jayden-official *[❗] 𝗘𝗿𝗿𝗼𝗿 𝗻𝗼 𝗽𝗼𝘀𝘀𝗶𝗯𝗹𝗲 𝗮𝘂𝗱𝗶𝗼 𝗳𝗼𝘂𝗻𝗱*', m);
+            await conn.reply(m.chat, 'https://github.com/delmax29 *[❗] 𝗘𝗿𝗿𝗼𝗿 𝗻𝗼 𝗽𝗼𝘀𝘀𝗶𝗯𝗹𝗲 𝗮𝘂𝗱𝗶𝗼 𝗳𝗼𝘂𝗻𝗱*', m);
           }
         }
       }
