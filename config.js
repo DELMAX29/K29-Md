@@ -22,7 +22,7 @@ module.exports = { session: process.env.SESSION_ID || '  ',
     WARN_COUNT : process.env.WARN_COUNT || '3' ,
     ETAT : process.env.PRESENCE || '',
     CHATBOT : process.env.PM_CHATBOT || 'no',
-    DP : process.env.STARTING_BOT_MESSAGE || "yes",
+    DP : process.env.STARTING_BOT_MESSAGE || "yes", 
     ADM : process.env.ANTI_DELETE_MESSAGE || 'no',
     DATABASE_URL,
     DATABASE: DATABASE_URL === databasePath
